@@ -49,7 +49,7 @@ class MK_Post_Type_Example {
       'has_archive' => true,
       'supports' => array('title', 'editor'),
       'rewrite' => array( 'slug' => '%custom_tax%', 'with_front' => false ), // Set the custom_tax here
-      'has_archive' => 'camps',
+      'has_archive' => 'archive_slug',
     ));
 
     // Disable auto, use verbose
